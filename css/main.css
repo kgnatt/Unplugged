@@ -130,11 +130,11 @@ p {
 }
 
 img {
-
+  width: 100%;
 }
 
 figure {
-
+  margin: 0;
 }
 
 address {
@@ -197,6 +197,14 @@ header nav ul li {
   font-size: 1.125em;
 }
 
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 footer {
   flex-direction: column;
   text-align: center;
@@ -239,6 +247,9 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url(../img/unplugged-retreat.jpg) center no-repeat #333;
+  background-size: cover;
+  min-height: 500px;
 }
 
 .hero-area h1 {
@@ -287,6 +298,8 @@ input[type=button] {
 /* Features */
 
 .features {
+  background: url('../img/unplugged-retreat-features.jpg') center;
+  background-size: cover;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -532,6 +545,10 @@ input[type=button] {
 
   /* Hero */
 
+  .hero-area {
+    min-height: 600px;
+  }
+
   .hero-area h1 {
     font-size: 3em;
     line-height: 1;
@@ -662,6 +679,12 @@ input[type=button] {
     width: 100%;
   }
 
+  .faq h4,
+  .faq p {
+    font-size: .875em;
+    line-height: 1.125;
+  }
+
 
   @media only screen and (min-width: 1200px) {
     /*Desktop styles here*/
@@ -746,6 +769,7 @@ input[type=button] {
 
     .faq h2 {
       width: 100%;
+      font-size: em;
     }
 
     .faq h4,
