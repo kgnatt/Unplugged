@@ -104,6 +104,7 @@ ul,
 ol {
   list-style-type: none;
   margin: 0;
+  padding: 0;
 }
 
 a {
@@ -311,6 +312,7 @@ input[type=button] {
 .features {
   background: url('../img/unplugged-retreat-features.jpg') center;
   background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
